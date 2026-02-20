@@ -1,1 +1,69 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/* ===== HEADER ===== */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* ===== MAIN ===== */
+.main-grid {
+    margin-top: 80px;
+    /* supaya tidak ketutup header */
+    display: grid;
+    gap: 20px;
+    padding: 40px;
+}
+
+.menu {
+    padding: 40px;
+    border-radius: 12px;
+    color: white;
+    font-size: 24px;
+}
+
+.menu1 {
+    background: #6E97BC;
+    height: 300px;
+}
+
+.menu2 {
+    background: #5D569E;
+    height: 300px;
+}
+
+.menu3 {
+    background: #8AE7EF;
+    height: 300px;
+}
